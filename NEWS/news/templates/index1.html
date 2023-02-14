@@ -1,0 +1,13 @@
+<html>
+
+ <head>
+    <title> Downloading file</title>
+ </head>
+   <body>
+     {% for i in context %}
+     <h1>Title:{{i.title}}</h1>
+     <h1>Download file from here<a href ="{{i.news.url}}" Download>{{i.tile}}</a></h1>
+     {% endfor %}
+   </body>
+
+</html>
